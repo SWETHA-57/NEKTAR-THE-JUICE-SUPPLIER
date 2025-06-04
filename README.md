@@ -44,4 +44,8 @@ So, the next time you reach for a beverage, ask yourself: do you want something 
 
 Nektaar: Taste the vibe. Feel the refreshment. Live the difference.
 
-*OUTPUT*:
+*OUTPUT*:![Image](https://github.com/user-attachments/assets/b123ab21-0647-4f6e-b517-260998e66192)
+
+![Image](https://github.com/user-attachments/assets/a7ba8f0c-efb0-45d3-bac5-5ab14e0974fd)
+
+![Image](https://github.com/user-attachments/assets/a2b73f73-573e-41ba-87fc-12260c4a6c80)
