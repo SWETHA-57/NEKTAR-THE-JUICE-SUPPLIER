@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nektaar – The Juice with Personality! 🧃✨</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #fff5e6, #ffe0f0);
+            color: #333;
+        }
+        header {
+            background: url('https://images.unsplash.com/photo-1580910051073-2b081b4e06cf') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 6rem 1rem;
+            box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
+        }
+        header h1 {
+            font-size: 3.5rem;
+            font-weight: bold;
+        }
+        header p {
+            font-size: 1.5rem;
+            margin-top: 1rem;
+        }
+        nav {
+            background: #ff7f50;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            padding: 1rem;
+            font-size: 1.1rem;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #f1c40f;
+        }
+        section {
+            padding: 3rem 2rem;
+        }
+        .juice-info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: center;
+        }
+        .juice-card {
+            flex: 1 1 300px;
+            background: #ffffff;
+            border-radius: 15px;
+            padding: 1.5rem;
+            box-shadow: 0 8px 15px rgba(0,0,0,0.15);
+            transition: transform 0.3s;
+        }
+        .juice-card:hover {
+            transform: translateY(-5px);
+        }
+        .juice-card h2 {
+            color: #e67e22;
+        }
+        .juice-card ul {
+            list-style-type: square;
+            padding-left: 1.2rem;
+        }
+        .juice-card img {
+            max-width: 100%;
+            height: 200px;
+            object-fit: cover;
+            margin-bottom: 1rem;
+            border-radius: 10px;
+        }
+        #about, #contact {
+            background: #fef9e7;
+            border-top: 5px solid #f39c12;
+        }
+        #about h2, #contact h2 {
+            color: #d35400;
+            text-align: center;
+        }
+        #about p, #contact p {
+            font-size: 1.1rem;
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+        .extra-images {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1.5rem;
+            padding: 2rem;
+        }
+        .extra-images img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background: #ff7f50;
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Nektaar 🍹</h1>
+        <p>The juice that’s not just a drink, but a vibe! 🎉</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home 🏠</a>
+        <a href="#about">About Us 👋</a>
+        <a href="#contact">Contact Us 📞</a>
+    </nav>
+
+    <section id="home">
+        <div class="juice-info">
+            <div class="juice-card">
+                <img src="https://images.unsplash.com/photo-1584714739964-184d2c2f69b4" alt="Amla + Ginger + Lemon">
+                <h2>🍋 Lemon + Ginger + Amla</h2>
+                <ul>
+                    <li>Rich in Vitamin C – Boosts immunity and promotes glowing skin. ✨</li>
+                    <li>Powerful Antioxidants – Fights free radicals and reduces cell damage. 💪</li>
+                    <li>Aids Digestion – Supports gut health and relieves bloating. 😌</li>
+                    <li>Regulates Blood Sugar – Helps control sugar levels naturally. 🩺</li>
+                    <li>Detoxifies the Body – Flushes out toxins and improves liver function. 🚿</li>
+                </ul>
+            </div>
+            <div class="juice-card">
+                <img src="https://images.unsplash.com/photo-1617137968428-c4f12bcb1f36" alt="Pineapple">
+                <h2>🍍 Pineapple</h2>
+                <ul>
+                    <li>Rich in Vitamin C – Strengthens immunity and promotes healthy skin. 🌟</li>
+                    <li>Aids Digestion – Contains bromelain, which helps break down proteins. 🍽️</li>
+                    <li>Supports Hydration – High water content keeps the body refreshed. 💧</li>
+                    <li>Boosts Eye Health – Contains beta-carotene and antioxidants for vision. 👁️</li>
+                    <li>Anti-Inflammatory Properties – Helps reduce swelling and joint pain. 🧘</li>
+                </ul>
+            </div>
+            <div class="juice-card">
+                <img src="https://images.unsplash.com/photo-1560807707-8cc77767d783" alt="Nannari">
+                <h2>🧃 Nannari</h2>
+                <p>Old-school cool, like your grandma’s wisdom wrapped in a refreshing sip. Nostalgia in a bottle! 🕶✨</p>
+            </div>
+        </div>
+
+        <div class="extra-images">
+            <img src="https://images.unsplash.com/photo-1629198785294-0c73406a9e36" alt="Fruit Platter">
+            <img src="https://images.unsplash.com/photo-1603052875723-bc6ff4c27561" alt="Juices in Bottles">
+            <img src="https://images.unsplash.com/photo-1581873372794-45f1833f94c7" alt="Citrus Fruits in Water">
+            <img src="https://images.unsplash.com/photo-1572875108919-1a9c5d196b11" alt="Natural Smoothies">
+            <img src="https://images.unsplash.com/photo-1615484477651-4047ba473f4e" alt="Juices and Nature">
+            <img src="https://images.unsplash.com/photo-1576402187874-8f9fa75863e3" alt="Fruit Background">
+            <img src="https://images.unsplash.com/photo-1535914254981-b5012eebbd15" alt="Healthy Juice Glass">
+            <img src="https://images.unsplash.com/photo-1556912999-d997e57e42a8" alt="Refreshing Summer Drink">
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us 🙌</h2>
+        <p>Nektaar is more than just a juice supplier. We’re about creating refreshing moments that connect with your soul. 🧡 Made with pure, natural ingredients and no artificial additives, each sip is a celebration of flavor and wellness. 🍹 Our mission is to make drinks that are as vibrant and unforgettable as you are! 🎯</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us 📬</h2>
+        <p>Email: 📧 hello@nektaar.com</p>
+        <p>Phone: 📱 +91-9876543210</p>
+        <p>Address: 📍 Nektaar Beverages, Hyderabad, India</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Nektaar. All rights reserved. 🧃🌟</p>
+    </footer>
+</body>
+</html>
